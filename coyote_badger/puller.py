@@ -28,12 +28,12 @@ class Puller(object):
     SCREEN_HEIGHT = 860
     SLOW_MO = 0.5 * 1000  # 0.5 sec, increase to slow down for debugging
 
-    HEIN_SIGN_IN_URL = "https://heinonline.org/HOL/WAYFless?entityID=https%3A%2F%2Fidp.utexas.edu%2Fopenathens&target=https%3A%2F%2Fwww.heinonline.org%2FHOL%2FWelcome"  # noqa
-    HEIN_AUTHED_URL = "https://heinonline.org/HOL/Welcome"
-    HEIN_SEARCH_URL = "https://heinonline.org/HOL/OneBoxCitation?cit_string={}&searchtype=advanced&typea=citation&other_cols=yes&submit=Go&sendit="  # noqa
-    HEIN_BASE_URL = "https://heinonline.org/HOL/"
+    HEIN_SIGN_IN_URL = "https://login.libproxy.berkeley.edu/login?auth=shib&qurl=https%3A%2F%2Fheinonline.org%2FHOL%2FWelcome"  # noqa
+    HEIN_AUTHED_URL = "https://heinonline-org.libproxy.berkeley.edu/HOL/Welcome"
+    HEIN_SEARCH_URL = "https://heinonline.org.libproxy.berkeley.edu/HOL/OneBoxCitation?cit_string={}&searchtype=advanced&typea=citation&other_cols=yes&submit=Go&sendit="  # noqa
+    HEIN_BASE_URL = "https://heinonline-org.libproxy.berkeley.edu/HOL/"
 
-    WESTLAW_SIGN_IN_URL = "https://lawschool.westlaw.com/redirect/westlaw"
+    WESTLAW_SIGN_IN_URL = "https://signon.thomsonreuters.com/?productid=CBT&lr=0&culture=en-US&returnto=https%3a%2f%2f1.next.westlaw.com%2fCosi%2fSignOn"
     WESTLAW_AUTHED_URL = "https://1.next.westlaw.com/Search/Home.html?transitionType=Default&contextData=(sc.Default)"  # noqa
     WESTLAW_SEARCH_URL = "https://1.next.westlaw.com/Search/Home.html?transitionType=Default&contextData=(sc.Default)"  # noqa
     WESTLAW_STATUTES_URL = "https://1.next.westlaw.com/Browse/Home/StatutesCourtRules?transitionType=Default&contextData=(sc.Default)"  # noqa
